@@ -1,0 +1,22 @@
+ol{
+    list-style-type:upper-roman;
+}
+ul{
+    list-style-type: disc;
+}
+
+dt{
+    font-size: larger;
+    font-weight: bold;
+    color: darkblue;
+}
+
+dd{
+    color: darkcyan;
+}
+
+ul>li>ol{
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: url("/img/icons8-цветок-20\ \(1\).png");
+}
